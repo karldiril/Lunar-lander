@@ -31,7 +31,7 @@ public:
     float yDepart { 0.0f };
 
     bool flammeVisible { false };
-    Sprite flamme {"../assets/images/flamme.png", 0.0f, 0.0f, 0.0f, true};
+    Sprite flamme {"assets/images/flamme.png", 0.0f, 0.0f, 0.0f, true};
 };
 
 
