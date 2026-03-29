@@ -18,8 +18,8 @@ void unload();
 
 
 
-Lander lander{"../assets/images/lander.png", static_cast<float>(Constantes::LARGEUR_ECRAN) / 2, 0, true};
-SiteAtterrissage site {"../assets/images/cible.png", static_cast<float>(Constantes::LARGEUR_ECRAN / 2), static_cast<float>(Constantes::HAUTEUR_ECRAN) - 100};
+Lander lander{"assets/images/lander.png", static_cast<float>(Constantes::LARGEUR_ECRAN) / 2, 0, true};
+SiteAtterrissage site {"assets/images/cible.png", static_cast<float>(Constantes::LARGEUR_ECRAN / 2), static_cast<float>(Constantes::HAUTEUR_ECRAN) - 100};
 InterfaceLander interface { 50, 50, lander };
 Montagnes montagnes { site.x, site.y};
 
